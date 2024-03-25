@@ -1,0 +1,62 @@
+#event_container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+#description {
+  font-size: small;
+}
+
+#evnts {
+  background-color: rgb(180, 192, 211);
+  padding: 10px;
+  margin: 30px auto;
+  border: none;
+  max-width: 1000px;
+  border-radius: 20px;
+}
+
+#evnts button {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid white;
+  padding: 9px;
+  background-color: rgb(29, 26, 26);
+  border-radius: 6px;
+  transition: all 0.6s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#search_div {
+  display: flex;
+  flex-direction: column;
+  border: 2px dashed rgb(201, 195, 195);
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+}
+
+#search_div input {
+  margin-top: 10px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+}
+
+#search_div button {
+  margin: 7px;
+  width: 100px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}

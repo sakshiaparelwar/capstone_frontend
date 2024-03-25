@@ -1,0 +1,28 @@
+#event_creation {
+  border: 1px solid green;
+  background-color: rgb(47, 107, 107);
+}
+
+#event_form input,
+textarea {
+  width: 200px;
+  height: 25px;
+  border: none;
+  background-color: rgb(224, 220, 220);
+}
+
+#create_event {
+  border: none;
+  background-color: rgb(54, 54, 136);
+  color: rgb(9, 105, 64);
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.6s ease;
+}
+
+#create_event:hover {
+  color: white;
+  background-color: rgb(9, 105, 64);
+}
